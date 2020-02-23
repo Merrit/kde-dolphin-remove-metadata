@@ -1,0 +1,10 @@
+ [Desktop Entry]
+ Type=Service
+ ServiceTypes=KonqPopupMenu/Plugin
+ MimeType=image/*
+ Actions=removeMetadata
+ 
+ [Desktop Action removeMetadata]
+ Name=Remove Metadata
+ Icon=document-cleanup
+ Exec=exiftool -all= %U -overwrite_original
