@@ -9,4 +9,5 @@
  Name[nl]=Metagegevens wissen
  Name[pl]=Usuń Metadane
  Icon=document-cleanup
- Exec=exiv2 -d a %U
+ Exec=exiftool -all= %U -overwrite_original
+ 
