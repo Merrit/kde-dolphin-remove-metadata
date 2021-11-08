@@ -8,15 +8,15 @@ Works with single and multiple images.
 
 <br>
 
-Requires [exiv2](https://exiv2.org/) to be installed, for example:
+Requires [ExifTool](https://exiftool.org/) to be installed, for example:
 
 **Ubuntu**
 
-`sudo apt install exiv2`
+`sudo apt install libimage-exiftool-perl`
 
 **Arch / Manjaro**
 
-`sudo pacman -S exiv2`
+`sudo pacman -S perl-image-exiftool`
 
 <br>
 
