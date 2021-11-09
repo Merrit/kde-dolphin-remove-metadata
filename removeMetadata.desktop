@@ -7,5 +7,6 @@
  [Desktop Action removeMetadata]
  Name=Remove Metadata
  Name[nl]=Metagegevens wissen
+ Name[pl]=Usuń Metadane
  Icon=document-cleanup
  Exec=exiftool -all= %U -overwrite_original
