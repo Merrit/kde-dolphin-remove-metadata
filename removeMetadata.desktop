@@ -6,6 +6,7 @@
  
  [Desktop Action removeMetadata]
  Name=Remove Metadata
+ Name[de]=Metadaten löschen
  Name[nl]=Metagegevens wissen
  Name[pl]=Usuń Metadane
  Icon=document-cleanup
