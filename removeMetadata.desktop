@@ -11,4 +11,4 @@
  Name[pl]=Usuń Metadane
  Name[zh_TW]=移除後設資料
  Icon=document-cleanup
- Exec=exiftool -all= %U -overwrite_original
+ Exec=exiftool -all= %U -tagsfromfile @ -Orientation -overwrite_original
