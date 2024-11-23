@@ -12,4 +12,4 @@
  Name[pl]=Usuń Metadane
  Name[zh_TW]=移除後設資料
  Icon=document-cleanup
- Exec=exiftool -all= %U -tagsfromfile @ -Orientation -overwrite_original
+ Exec=kdialog --yesno 'Exif metadata is going to removed. Are you sure?' --title 'Confirmation' && exiftool -all= %U -tagsfromfile @ -Orientation -overwrite_original
