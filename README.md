@@ -14,16 +14,16 @@ This adds a right click entry in Dolphin to remove all metadata / EXIF data from
 
 ### Prerequisites
 
-Requires [ExifTool](https://exiftool.org/) to be installed, for example:  
+Requires [ExifTool](https://exiftool.org/) and kdialog to be installed, for example:  
 
 **Fedora**
-- `sudo dnf install perl-Image-ExifTool`
+- `sudo dnf install perl-Image-ExifTool kdialog`
 
 **Ubuntu**
-- `sudo apt install libimage-exiftool-perl`  
+- `sudo apt install libimage-exiftool-perl kdialog`  
 
 **Arch / Manjaro**
-- `sudo pacman -S perl-image-exiftool`  
+- `sudo pacman -S perl-image-exiftool kdialog`  
 
 ### Automatic Install
 
