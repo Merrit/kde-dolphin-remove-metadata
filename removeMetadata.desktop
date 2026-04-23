@@ -1,6 +1,5 @@
  [Desktop Entry]
  Type=Service
- ServiceTypes=KonqPopupMenu/Plugin
  MimeType=image/*
  Actions=removeMetadata
  
