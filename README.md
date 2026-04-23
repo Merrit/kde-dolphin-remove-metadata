@@ -36,7 +36,6 @@ Services -> Search for "Remove Metadata" -> Install "Remove Metadata" by merritt
 
 - Download the `removeMetadata.desktop` file
 - Copy it to `~/.local/share/kio/servicemenus/`
-- Restart Dolphin
 
 
 ## How to use
